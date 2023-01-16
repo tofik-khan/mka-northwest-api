@@ -1,0 +1,14 @@
+{
+  "name": "mka-northwest-api",
+  "version": "1.0.0",
+  "description": "An API interface for various applications and programs supporting the MKA NorthWest Tech Infrastructure.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tofik Khan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
