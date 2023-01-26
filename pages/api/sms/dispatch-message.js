@@ -1,4 +1,5 @@
- 
+import getAllKhuddam from "../database/get-all-khuddam";
+
  /**
   * 
   * @param {Object} req: payload received from calling application
@@ -23,6 +24,7 @@
   */
 
 export default async function handler(req, res) {
-    console.log(req.body);
+    const khuddam = await getAllKhuddam();
+    console.log(khuddam);
     res.status(200).json({result: "Success"})
 }
