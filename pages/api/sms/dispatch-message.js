@@ -1,5 +1,3 @@
-import getAllKhuddam from "../database/get-all-khuddam";
-
  /**
   * 
   * @param {Object} req: payload received from calling application
