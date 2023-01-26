@@ -7,6 +7,7 @@ import getAllKhuddam from "../database/get-all-khuddam";
   * req.body = {
   *     "message": String - unformatted message to be sent to users
   *     "users": Array - User Array with names and phone numbers
+  *     "auth": String - secret key needed to authenticate API
   * }
   * req.body.users = [
   *     {
@@ -24,7 +25,13 @@ import getAllKhuddam from "../database/get-all-khuddam";
   */
 
 export default async function handler(req, res) {
-    const khuddam = await getAllKhuddam();
-    console.log(khuddam);
-    res.status(200).json({result: "Success"})
+
+    // Authenticate request
+    if(!req.body.auth || req.body.auth !== process.env.API_AUTH_TOKEN ) {
+        res.status(401).json({success: false, error: { message: "Failed to Authenticate"}});
+        return;
+    }
+
+
+    res.status(200).json({success: true})
 }
