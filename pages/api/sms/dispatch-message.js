@@ -30,6 +30,8 @@ export default async function handler(req, res) {
         return;
     }
 
+    userArray = req.body.users || "None";
+    console.log(userArray);
 
     res.status(200).json({success: true})
 }
