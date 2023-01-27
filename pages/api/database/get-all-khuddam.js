@@ -9,8 +9,8 @@ export default async function getAllKhuddam() {
         await client.connect();
 
         return await client
-                        .db("test")
-                        .collection('users')
+                        .db("mka-northwest")
+                        .collection('khuddam')
                         .find({})
                         .toArray(); 
     } catch (e) {
