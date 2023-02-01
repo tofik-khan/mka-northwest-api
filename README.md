@@ -14,6 +14,8 @@ A repository of various RESTful APIs created in a microservices architecture to 
 
 ## Contributing
 
+All contributions are welcomed. To improve the project, fork the project and submit a Pull Request. Alternatively, members of MKAUSA organization can request access to be developers and contributors by contacting the Project Owner.
+
 ## Contributors
 
 ## License & Use Guidelines
