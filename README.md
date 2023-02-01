@@ -6,6 +6,12 @@ A repository of various RESTful APIs created in a microservices architecture to 
 
 ## Built With
 
+- [Node.js](https://nodejs.org/)
+- [Next.js](https://nextjs.org/)
+- [MongoDB](https://www.mongodb.com/)
+- [ReactJS](https://reactjs.org/)
+- [Twilio](https://twilio.com)
+
 ## Contributing
 
 ## Contributors
