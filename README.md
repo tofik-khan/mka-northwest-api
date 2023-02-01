@@ -18,6 +18,8 @@ All contributions are welcomed. To improve the project, fork the project and sub
 
 ## Contributors
 
+- [Tofik Khan](https://github.com/tofik-khan)
+
 ## License & Use Guidelines
 
 ## Contact
