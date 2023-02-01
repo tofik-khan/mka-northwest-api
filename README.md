@@ -1,5 +1,7 @@
 # MKA NorthWest API
 
+![image](https://user-images.githubusercontent.com/55766480/215967645-edbaedfc-6e8d-424d-869b-e15e4facde7c.png)
+
 ## Introduction
 
 A repository of various RESTful APIs created in a microservices architecture to automate organizational requirements. The services are mostly independent and can be invoked by authenticated `POST` Requests.
